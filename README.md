@@ -49,6 +49,6 @@ The goal of the project in this semester is to develop a web-based machine learn
 
 Your presentations and handouts will serve as preparation by discussing several relevant topics that form the technical background of this project task. 
 
-The link to the specific topics will be placed here on Friday, 10th September. Make sure you cover at least the mentioned keywords. More is better, but only really better if you evaluate alternatives, phrase opinions, and provide guidelines for your fellow students.
+The specific topics will be posted on Friday, 10th September, as GitHub issues with label "Topic". Choose a topic by commenting on the respective issue. Make sure you cover at least the mentioned keywords. More is better, but only really better if you evaluate alternatives, phrase opinions, and provide guidelines for your fellow students.
 
 
