@@ -45,7 +45,7 @@ Be prepared for questions by your fellow students and the teachers, but also pre
 
 ### Topics & content
 
-The goal of the project in this semester is to develop a web-based machine learning toolkit for land cover classifications based on Satellite imagery, which produces not only the prediction maps but also computes the [Area of Applicability](https://arxiv.org/abs/2005.07939). Your task will not be the development of the methods, but their implementation as a web-based toolkit. Detailed information about the goals and deliverables will be communicated along with the invitation to bid at the start of the semester. 
+The goal of the project in this semester is to develop a web-based machine learning toolkit for land cover classifications based on satellite imagery, which produces not only the prediction maps but also computes the [Area of Applicability](https://arxiv.org/abs/2005.07939). Your task will not be the development of the methods, but their implementation as a web-based toolkit. Detailed information about the goals and deliverables will be communicated along with the invitation to bid at the start of the semester. 
 
 Your presentations and handouts will serve as preparation by discussing several relevant topics that form the technical background of this project task. 
 
