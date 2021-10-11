@@ -3,16 +3,18 @@
 Handout von: [@jbalzer](https://github.com/jbalzer12), [@thalisgold](https://github.com/thalisgold)
 
 ## Was ist Fernerkundung?
+
 * Kontaktfreies Erfassen von Informationen über eine Fläche
 * Z.B. mit Sensoren, die an Satelliten, Flugzeugen oder Drohnen angebracht sind
 * Sensor zeichnet elektromagnetische Strahlung auf, die an der Erdoberfläche und ihren Objekten reflektiert wird
-* Das elektromagnetische Spektrum spielt in der Fernerkundung die zentrale Rolle
-![EMS](img/EMS.jpg)
+* Das elektromagnetische Spektrum spielt in der Fernerkundung die zentrale Rolle<br><br>
+![EMS](img/EMS.jpg)<br>
 * Sie nutzt aus, dass jedes Material auf der Erde die elektromagnetische Strahlung anders reflektiert
 * Daraus lassen sich letztlich Rückschlüsse auf Positionsinformationen von Objekten und Hinweise auf Eigenschaften von Oberflächen ziehen
 * Wenn diese Rückschlüsse objektspezifisch und signifikant sind, können sie zur Objektklassifikation herangezogen werden!
 * Wichtig: In der Fernerkundung sind auch Bereiche des EMS interessant, die das menschliche Auge nicht erfassen kann
 * Bekanntes Beispiel: Vegetation reflektiert in nahem Infrarot besonders stark
+
 
 ## Vorteile Fernerkundung mit Satelliten
 
@@ -21,6 +23,7 @@ Handout von: [@jbalzer](https://github.com/jbalzer12), [@thalisgold](https://git
   * Relativ niedrigere Kosten pro Einheitsgebiet der Abdeckung
   * Viele frei verfügbare Daten
   * Computergestützte Verarbeitung und Analyse
+
 
 ## Arten der Fernerkundung 
 
@@ -106,14 +109,33 @@ Man unterscheidet anhand des EMS drei große Bereiche:
 
 | Dateiformat | Beschreibung |
 |:---------|:------------------------|
-| **.txt** | *  Textdatei mit Pixelwerten (vgl. [(https://docs.fileformat.com/word-processing/txt/)]((https://docs.fileformat.com/word-processing/txt/))|
-|          | * Bilddateien sehr groß (vgl. [https://earthexplorer.usgs.gov](https://earthexplorer.usgs.gov)) |
-|          |  |
-| **.xml** | * Standardisiertes Format zum Speichern und Transportieren von Daten |
-|          |(vgl. [https://www.w3schools.com/xml/xml_whatis.asp](https://www.w3schools.com/xml/xml_whatis.asp))|
-|||
-|**JPEG** (.jpg)| *  Komprimierte Grafikdatei
--    Bei starker Kompression um Faktor >= 30 weist JPEG Schwächen auf
--        ISO/IEC 109818-1
-|
+| **.txt** | -  Textdatei mit Pixelwerten (vgl. [https://docs.fileformat.com/word-processing/txt/](https://docs.fileformat.com/word-processing/txt/))<br> - Bilddateien sehr groß (vgl. [https://earthexplorer.usgs.gov](https://earthexplorer.usgs.gov)) <br><br>|
+| **.xml** | - Standardisiertes Format zum Speichern und Transportieren von Daten <br><br> (vgl. [https://www.w3schools.com/xml/xml_whatis.asp](https://www.w3schools.com/xml/xml_whatis.asp))|
+|**JPEG** <br>(.jpg)| -  Komprimierte Grafikdatei <br> - Bei starker Kompression um Faktor >= 30 weist JPEG Schwächen auf <br> - ISO/IEC 109818-1<br><br> (vgl. [https://www.heise.de/](https://www.heise.de/ix/artikel/Bilder-schrumpfen-505974.html))|
+|**JPEG2000**<br>(.jp2)| - Komprimierte Grafikdatei <br> - ISO/IEC Standard 15444-1 <br> - Höhere Kompressionsrate als JPEG <br> - Übergroße Bilder mit mehr als 64kx64k Pixel möglich<br> - Wavelet-Verfahren (bei Verkleinerung um Faktor 40)<br><br> (vgl. [https://www.heise.de/](https://www.heise.de/ix/artikel/Bilder-schrumpfen-505974.html))|
+|**GeoTIFF**<br>(.tif, .tiff)| - Gängigstes Format zur Speicherung von Rastergrafiken mit Bildkompression <br> - Ermöglicht sowohl verlustbehaftete als auch verlustlose Kompression <br> - Basiert auf der diskreten Wavelet-Transformation <br> - Enthält zusätzliche eine Georeferenzierung der Rasterdaten <br> - Weltweit weit verbreitet <br> * Open Source Packages (bspw. GDAL in R) sowie Softwaresupport gut zugänglich <<br> - Wird von den meisten GIS gelesen <br> - Nicht geeignet für Vektordaten und komplexe multidimensionale Daten <br><br>(vgl. [https://earthdata.nasa.gov/](https://earthdata.nasa.gov/esdis/eso/standards-and-references/geotiff))|
+| **NetCDF**<br>(.nc) |  - Dateiformat zum Speichern mehrdimensionaler wissenschaftlicher Daten - Falls die Datei in einer anderen Reihenfolge gelesen werden soll, als sie geschrieben ist, ist NetCDF die effizienteste Methode<br><br>(vgl. [https://pro.arcgis.com/de/](https://pro.arcgis.com/de/pro-app/2.7/help/data/multidimensional/what-is-netcdf-data.htm), [https://www.unidata.ucar.edu/](https://www.unidata.ucar.edu/software/netcdf/workshops/2011/performance/Time.html))
+
+
+## Analyse von Fernerkundungsdaten in R: 
+
+* Hilfreiche Packages: 
+
+| Package | Beschreibung |
+|:----------|:----------|
+| sp    | - zentral für die Analyse räumlicher Daten <br> - Definiert Klassen zur Repräsentation räumlicher Daten<br><br>[https://cran.r-project.org/web/packages/sp/sp.pdf](https://cran.r-project.org/web/packages/sp/sp.pdf)|
+| rgdal | - Ermöglicht den Zugang zu Operationen der PROJ-Bibliothek zur Transformation und Projektion <br><br>[https://cran.r-project.org/web/packages/rgdal/rgdal.pdf](https://cran.r-project.org/web/packages/rgdal/rgdal.pdf)|
+| raster | - Enthält Klassen und Funktionen zur Manipulation und dem Umgang mit räumlichen Daten im Raster-Format <br><br>[https://cran.r-project.org/web/packages/raster/raster.pdf](https://cran.r-project.org/web/packages/raster/raster.pdf)|
+| ggplot2 | - Package zum Erstellen von Datenvisualisierungen <br><br>[https://cran.r-project.org/web/packages/ggplot2/index.html](https://cran.r-project.org/web/packages/ggplot2/index.html)|
+| viridis | - Package zum Kolorieren von Grafiken <br><br>[https://cran.r-project.org/web/packages/viridis/viridis.pdf](https://cran.r-project.org/web/packages/viridis/viridis.pdf)|
+| rasterVis | - Enthält Methoden zur Visualisierung und Interaktion mit Rasterdaten <br><br>[https://cran.r-project.org/web/packages/rasterVis/index.html](https://cran.r-project.org/web/packages/rasterVis/index.html)|
+
+* Tutorials zur Analyse von Fernerkundungsdaten in R: 
+  * [https://rspatial.org/rs/rs.pdf](https://rspatial.org/rs/rs.pdf)
+  * [https://cran.r-project.org/web/packages/rasterVis/index.html](https://cran.r-project.org/web/packages/rasterVis/index.html)
+  * [https://ourcodingclub.github.io/tutorials/spatial/](https://ourcodingclub.github.io/tutorials/spatial/)
+  * [https://pad.uni-muenster.de/s/XWCQrtgj2#](https://pad.uni-muenster.de/s/XWCQrtgj2#)
+
+
+
 
