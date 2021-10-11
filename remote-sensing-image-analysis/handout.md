@@ -33,7 +33,7 @@ Man unterscheidet anhand des EMS drei große Bereiche:
   *	Fernerkundungssysteme können abhängig von der Anzahl, der von ihnen verwendeten spektralen Kanäle in folgende Typen unterteilt werden:
     * Panchromatisch: Nur ein Kanal, der für Strahlung in einem breiten Wellenlängenbereich empfindlich ist.
     * Multispektral: 7-12 Kanäle. Jeder Kanal ist empfindlich gegenüber Strahlung innerhalb eines schmalen Wellenlängenbereichs. Das resultierende Bild ist ein mehrschichtiges Bild, das sowohl die Helligkeits- als auch die spektralen (Farb-) Informationen der beobachteten Objekte enthält
-    * Hyperspektral: hundert oder mehr zusammenhängende Spektralkanäle
+    * Hyperspektral: Hundert oder mehr zusammenhängende Spektralkanäle
   * Bsp. für Satellit: Sentinel-2
     * 13 Kanäle/Bänder
     * Überfliegung alle 5 bis 7 Tage
