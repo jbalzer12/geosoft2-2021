@@ -28,3 +28,7 @@ Handout von: [@jbalzer](https://github.com/jbalzer12), [@thalisgold](https://git
     * Start: 2016 (3A), 2018 (3B)
   
 [https://www.d-copernicus.de/](https://www.d-copernicus.de/daten/satelliten/daten-sentinels/)
+
+
+## Datenformate
+
