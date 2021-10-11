@@ -7,7 +7,7 @@ Handout von: [@jbalzer](https://github.com/jbalzer12), [@thalisgold](https://git
 * Z.B. mit Sensoren, die an Satelliten, Flugzeugen oder Drohnen angebracht sind
 * Sensor zeichnet elektromagnetische Strahlung auf, die an der Erdoberfläche und ihren Objekten reflektiert wird
 * Das elektromagnetische Spektrum spielt in der Fernerkundung die zentrale Rolle
-* ![EMS](/Users/thali/OneDrive/Dokumente/WWU/7. Semester/Geosoftware 2/EMS.jpg)
+![EMS](img/EMS.jpg)
 * Sie nutzt aus, dass jedes Material auf der Erde die elektromagnetische Strahlung anders reflektiert
 * Daraus lassen sich letztlich Rückschlüsse auf Positionsinformationen von Objekten und Hinweise auf Eigenschaften von Oberflächen ziehen
 * Wenn diese Rückschlüsse objektspezifisch und signifikant sind, können sie zur Objektklassifikation herangezogen werden!
