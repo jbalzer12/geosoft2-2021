@@ -32,3 +32,23 @@ Handout von: [@jbalzer](https://github.com/jbalzer12), [@thalisgold](https://git
 
 ## Datenformate
 
+* Grafische Fernerkundungsdaten werden in der Regel als Rasterdaten gespeichert und enthalten “Bänder”, falls mehrere Farbkanäle existieren (vgl. [Nagesh Kumar](https://nptel.ac.in/courses/105/108/105108077/
+))
+* Mögliche Datentypen beim Download von Daten:
+
+
+| Satellit | Mögliche Formate |
+|:------------------ |:-------------------|
+| Landsat             | .txt, .xml, .tif (GeoTIFF), (.jpeg)             |
+| Sentinel 1 - Level 1            | .tif             |
+| Sentinel 1 - Level 2            | .nc (NetCDF)             |
+| Sentinel 2            | .jp2 (JPEG2000), .tif (GeoTIFF)             |
+| Sentinel 3        | .nc (NetCDF)             |
+
+
+* Downloadportale, an denen ich mich orientiert habe: 
+  * [https://earthexplorer.usgs.gov](https://earthexplorer.usgs.gov) (Landsat, Sentinel 2)
+  * [https://scihub.copernicus.eu/dhus/#/home](https://scihub.copernicus.eu/dhus/#/home) (Sentinel 1, Sentinel 2, Sentinel 3)
+
+* Bsp. für einen cloudbasierten Downloaddienst: [https://browser.creodias.eu](https://browser.creodias.eu)
+* Archiv des Landsat-Programms und erleichterte Auswahl der AOI über: [https://landsatlook.usgs.gov/explore](https://landsatlook.usgs.gov/explore)
