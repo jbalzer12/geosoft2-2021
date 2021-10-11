@@ -104,9 +104,16 @@ Man unterscheidet anhand des EMS drei große Bereiche:
 
 ## Übersicht der verwendeten Dateiformate: 
 
-| test | test |
+| Dateiformat | Beschreibung |
 |:---------|:------------------------|
-| **.txt** | *  Textdatei mit Pixelwerten |
-|          | * Bilddateien sehr groß (vgl. https://earthexplorer.usgs.gov) |
-|          | (https://docs.fileformat.com/word-processing/txt/) |
-| **.xml** ||
+| **.txt** | *  Textdatei mit Pixelwerten (vgl. [(https://docs.fileformat.com/word-processing/txt/)]((https://docs.fileformat.com/word-processing/txt/))|
+|          | * Bilddateien sehr groß (vgl. [https://earthexplorer.usgs.gov](https://earthexplorer.usgs.gov)) |
+|          |  |
+| **.xml** | * Standardisiertes Format zum Speichern und Transportieren von Daten |
+|          |(vgl. [https://www.w3schools.com/xml/xml_whatis.asp](https://www.w3schools.com/xml/xml_whatis.asp))|
+|||
+|**JPEG** (.jpg)| *  Komprimierte Grafikdatei
+-    Bei starker Kompression um Faktor >= 30 weist JPEG Schwächen auf
+-        ISO/IEC 109818-1
+|
+
