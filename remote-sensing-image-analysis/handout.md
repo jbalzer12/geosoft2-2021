@@ -100,3 +100,13 @@ Man unterscheidet anhand des EMS drei große Bereiche:
 
 * Bsp. für einen cloudbasierten Downloaddienst: [https://browser.creodias.eu](https://browser.creodias.eu)
 * Archiv des Landsat-Programms und erleichterte Auswahl der AOI über: [https://landsatlook.usgs.gov/explore](https://landsatlook.usgs.gov/explore)
+
+
+## Übersicht der verwendeten Dateiformate: 
+
+| test | test |
+|:---------|:------------------------|
+| **.txt** | *  Textdatei mit Pixelwerten |
+|          | * Bilddateien sehr groß (vgl. https://earthexplorer.usgs.gov) |
+|          | (https://docs.fileformat.com/word-processing/txt/) |
+| **.xml** ||
