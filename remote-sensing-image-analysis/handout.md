@@ -121,12 +121,28 @@ Man unterscheidet anhand des EMS drei große Bereiche:
 |**JPEG** <br>(.jpg)| -  Komprimierte Grafikdatei <br> - Bei starker Kompression um Faktor >= 30 weist JPEG Schwächen auf <br> - ISO/IEC 109818-1<br><br> (vgl. [https://www.heise.de/](https://www.heise.de/ix/artikel/Bilder-schrumpfen-505974.html))|
 |**JPEG2000**<br>(.jp2)| - Komprimierte Grafikdatei <br> - ISO/IEC Standard 15444-1 <br> - Höhere Kompressionsrate als JPEG <br> - Übergroße Bilder mit mehr als 64kx64k Pixel möglich<br> - Wavelet-Verfahren (bei Verkleinerung um Faktor 40)<br><br> (vgl. [https://www.heise.de/](https://www.heise.de/ix/artikel/Bilder-schrumpfen-505974.html))|
 |**GeoTIFF**<br>(.tif, .tiff)| - Gängigstes Format zur Speicherung von Rastergrafiken mit Bildkompression <br> - Ermöglicht sowohl verlustbehaftete als auch verlustlose Kompression <br> - Basiert auf der diskreten Wavelet-Transformation <br> - Enthält zusätzliche eine Georeferenzierung der Rasterdaten <br> - Weltweit weit verbreitet <br> * Open Source Packages (bspw. GDAL in R) sowie Softwaresupport gut zugänglich <<br> - Wird von den meisten GIS gelesen <br> - Nicht geeignet für Vektordaten und komplexe multidimensionale Daten <br><br>(vgl. [https://earthdata.nasa.gov/](https://earthdata.nasa.gov/esdis/eso/standards-and-references/geotiff))|
-| **NetCDF**<br>(.nc) |  - Dateiformat zum Speichern mehrdimensionaler wissenschaftlicher Daten - Falls die Datei in einer anderen Reihenfolge gelesen werden soll, als sie geschrieben ist, ist NetCDF die effizienteste Methode<br><br>(vgl. [https://pro.arcgis.com/de/](https://pro.arcgis.com/de/pro-app/2.7/help/data/multidimensional/what-is-netcdf-data.htm), [https://www.unidata.ucar.edu/](https://www.unidata.ucar.edu/software/netcdf/workshops/2011/performance/Time.html))
+| **NetCDF**<br>(.nc) |  - Dateiformat zum Speichern mehrdimensionaler wissenschaftlicher Daten - Falls die Datei in einer anderen Reihenfolge gelesen werden soll, als sie geschrieben ist, ist NetCDF die effizienteste Methode<br><br>(vgl. [https://pro.arcgis.com/de/](https://pro.arcgis.com/de/pro-app/2.7/help/data/multidimensional/what-is-netcdf-data.htm), [https://www.unidata.ucar.edu/](https://www.unidata.ucar.edu/software/netcdf/workshops/2011/performance/Time.html))|
 
+
+<b>GeoTIFF bei Landsat 8:</b>
+|Dateibenennung\*|Bedeutung|
+|:-------------|---------|
+|LC08_...\_ST\_CDIST.tif|Pixel distance to cloud|
+|LC08_...\_ST\_DRAD.tif|Downwelled Radiance|
+|LC08_...\_ST\_EMIS.tif|Ratio of the energy radiated from a material’s surface to the energy radiated from a blackbody|
+|LC08_...\_ST\_EMSD.tif|Emissivity standard deviation|
+|LC08_...\_ST\_QA.tif|Contains quality statistics gathered from the cloud mask and statistics information for the scene|
+|LC08_...\_ST\_TRAD.tif|Thermal band converted to radiance|
+|LC08_...\_ST\_URAD.tif|Upwelled Radiance|
+|LC08_...\_ST\_ATRAN.tif|Atmospheric Transmittance|
+
+\* Bei der Dateibenennungen in der Tabelle handelt es sich um eine Auswahl an möglichen Endungen. Weiteres findet sich unter folgendem Link: [Landsat 8-9
+Operational Land Imager (OLI) - Thermal Infrared Sensor (TIRS) Collection 2 Level 2 (L2)
+Data Format Control Book (DFCB)](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-1328_Landsat8-9-OLI-TIRS-C2-L2-DFCB-v6.pdf)
 
 ## Analyse von Fernerkundungsdaten in R: 
 
-* Hilfreiche Packages: 
+* Hilfreiche Packages:
 
 | Package | Beschreibung |
 |:----------|:----------|
