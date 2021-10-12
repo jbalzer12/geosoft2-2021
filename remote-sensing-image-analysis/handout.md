@@ -6,15 +6,9 @@ Handout von: [@jbalzer](https://github.com/jbalzer12), [@thalisgold](https://git
 
 * Kontaktfreies Erfassen von Informationen über eine Fläche
 * Z.B. mit Sensoren, die an Satelliten, Flugzeugen oder Drohnen angebracht sind
-<<<<<<< HEAD
-* Sensor zeichnet elektromagnetische Strahlung auf, die an der Erdoberfläche und ihren Objekten reflektiert wird
-* Das elektromagnetische Spektrum spielt in der Fernerkundung die zentrale Rolle<br><br>
-![EMS](img/EMS.jpg)<br>
-=======
 * Das elektromagnetische Spektrum spielt in der Fernerkundung die zentrale Rolle
 * Sensor zeichnet elektromagnetische Strahlung auf, die an der Erdoberfläche und ihren Objekten reflektiert wird
 ![EMS](img/EMS.jpg)
->>>>>>> origin/Thalis-Teil
 * Sie nutzt aus, dass jedes Material auf der Erde die elektromagnetische Strahlung anders reflektiert
 * Daraus lassen sich letztlich Rückschlüsse auf Positionsinformationen von Objekten und Hinweise auf Eigenschaften von Oberflächen ziehen
 * Wenn diese Rückschlüsse objektspezifisch und signifikant sind, können sie zur Objektklassifikation herangezogen werden!
