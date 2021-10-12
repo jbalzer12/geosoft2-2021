@@ -12,7 +12,8 @@ Handout von: [@jbalzer](https://github.com/jbalzer12), [@thalisgold](https://git
 * Daraus lassen sich letztlich Rückschlüsse auf Positionsinformationen von Objekten und Hinweise auf Eigenschaften von Oberflächen ziehen
 * Wenn diese Rückschlüsse objektspezifisch und signifikant sind, können sie zur Objektklassifikation herangezogen werden!
 * Wichtig: In der Fernerkundung sind auch Bereiche des EMS interessant, die das menschliche Auge nicht erfassen kann
-* Bekanntes Beispiel: Vegetation reflektiert in nahem Infrarot besonders stark
+* Bekanntes Beispiel: Vegetation reflektiert in nahem Infrarot besonders stark 
+* (vgl. [KONSAB](https://www.youtube.com/watch?v=U9fF3KsQOMc&ab_channel=FernerkundungLernen))
 
 ## Vorteile Fernerkundung mit Satelliten
 
@@ -21,6 +22,7 @@ Handout von: [@jbalzer](https://github.com/jbalzer12), [@thalisgold](https://git
   * Relativ niedrigere Kosten pro Einheitsgebiet der Abdeckung
   * Viele frei verfügbare Daten
   * Computergestützte Verarbeitung und Analyse
+  * (vgl. [CRISP](https://crisp.nus.edu.sg/~research/tutorial/spacebrn.htm))
 
 ## Arten der Fernerkundung 
 
@@ -34,21 +36,26 @@ Man unterscheidet anhand des EMS drei große Bereiche:
     * Panchromatisch: Nur ein Kanal, der für Strahlung in einem breiten Wellenlängenbereich empfindlich ist.
     * Multispektral: 7-12 Kanäle. Jeder Kanal ist empfindlich gegenüber Strahlung innerhalb eines schmalen Wellenlängenbereichs. Das resultierende Bild ist ein mehrschichtiges Bild, das sowohl die Helligkeits- als auch die spektralen (Farb-) Informationen der beobachteten Objekte enthält
     * Hyperspektral: Hundert oder mehr zusammenhängende Spektralkanäle
+    * (vgl. [Lingli Zhu et al.](https://www.intechopen.com/chapters/57384))
   * Bsp. für Satellit: Sentinel-2
     * 13 Kanäle/Bänder
     * Überfliegung alle 5 bis 7 Tage
     *	Auflösung 10/20/60m
+    *	(vgl. [KONSAB](https://www.youtube.com/watch?v=U9fF3KsQOMc&ab_channel=FernerkundungLernen))
 * Vier Auflösungsdimensionen:
   * Zeitliche Auflösung (Variationen, z.B. Herbst/Frühling)
   * Räumliche Auflösung (Variationen, z.B. m/Pixel, d.h. Größenveränderung)
   * Radiometrische Auflösung (Anzahl der Informationen in bit, z.B. 8 bit, 16 bit etc.)
   *	Spektrale Auflösung (Wellenlängen, z.B. VIS und IR)
+  *	(vgl. [Torsten Prinz] (https://ivvgeo.uni-muenster.de/vorlesung/FE_Script/1_2.html))
 *	Radar Fernerkundung:
     *	Meist aktiv (senden Strahlung selbst aus und empfangen Signale als Energiepulse, die je nach Oberfläche unterschiedlich stark ausfallen)
     *	Aufnahmen unabhängig von Bewölkung und Tageszeit
+    *	(vgl. [KONSAB](https://www.youtube.com/watch?v=U9fF3KsQOMc&ab_channel=FernerkundungLernen))
 *	Thermale Fernerkundung:
     *	Misst Temperatur der Erdoberfläche
     *	Bisher nur geringe räumliche Auflösung
+    *	(vgl. [KONSAB](https://www.youtube.com/watch?v=U9fF3KsQOMc&ab_channel=FernerkundungLernen))
 
 
 ## Auswahl aktuell verbreiteter Satellitenprogramme: 
