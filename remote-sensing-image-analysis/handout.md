@@ -142,7 +142,3 @@ Man unterscheidet anhand des EMS drei große Bereiche:
   * [https://cran.r-project.org/web/packages/rasterVis/index.html](https://cran.r-project.org/web/packages/rasterVis/index.html)
   * [https://ourcodingclub.github.io/tutorials/spatial/](https://ourcodingclub.github.io/tutorials/spatial/)
   * [https://pad.uni-muenster.de/s/XWCQrtgj2#](https://pad.uni-muenster.de/s/XWCQrtgj2#)
-
-
-
-
