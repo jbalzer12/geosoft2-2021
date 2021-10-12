@@ -116,7 +116,7 @@ Man unterscheidet anhand des EMS drei große Bereiche:
 
 | Dateiformat | Beschreibung |
 |:---------|:------------------------|
-| **.txt** | -  Textdatei (vgl. [https://docs.fileformat.com/word-processing/txt/](https://docs.fileformat.com/word-processing/txt/))<br> - Dateien sehr groß (vgl. [https://earthexplorer.usgs.gov](https://earthexplorer.usgs.gov)) <br><br>|
+| **.txt** | -  Textdatei (vgl. [https://docs.fileformat.com/word-processing/txt/](https://docs.fileformat.com/word-processing/txt/))<br> - Dateien sehr groß (vgl. [https://earthexplorer.usgs.gov](https://earthexplorer.usgs.gov)) <br> - Bei den Landsat-Daten werden Metadaten und die Winkelkoeffizienten der Satelliten als .txt gespeichert (vgl. [https://www.pcigeomatics.com/](https://www.pcigeomatics.com/geomatica-help/references/gdb_r/Landsat4-5.html))<br><br>|
 | **.xml** | - Standardisiertes Format zum Speichern und Transportieren von Daten <br><br> (vgl. [https://www.w3schools.com/xml/xml_whatis.asp](https://www.w3schools.com/xml/xml_whatis.asp))|
 |**JPEG** <br>(.jpg)| -  Komprimierte Grafikdatei <br> - Bei starker Kompression um Faktor >= 30 weist JPEG Schwächen auf <br> - ISO/IEC 109818-1<br><br> (vgl. [https://www.heise.de/](https://www.heise.de/ix/artikel/Bilder-schrumpfen-505974.html))|
 |**JPEG2000**<br>(.jp2)| - Komprimierte Grafikdatei <br> - ISO/IEC Standard 15444-1 <br> - Höhere Kompressionsrate als JPEG <br> - Übergroße Bilder mit mehr als 64kx64k Pixel möglich<br> - Wavelet-Verfahren (bei Verkleinerung um Faktor 40)<br><br> (vgl. [https://www.heise.de/](https://www.heise.de/ix/artikel/Bilder-schrumpfen-505974.html))|
