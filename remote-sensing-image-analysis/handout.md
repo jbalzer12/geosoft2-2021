@@ -6,9 +6,15 @@ Handout von: [@jbalzer](https://github.com/jbalzer12), [@thalisgold](https://git
 
 * Kontaktfreies Erfassen von Informationen über eine Fläche
 * Z.B. mit Sensoren, die an Satelliten, Flugzeugen oder Drohnen angebracht sind
+<<<<<<< HEAD
 * Sensor zeichnet elektromagnetische Strahlung auf, die an der Erdoberfläche und ihren Objekten reflektiert wird
 * Das elektromagnetische Spektrum spielt in der Fernerkundung die zentrale Rolle<br><br>
 ![EMS](img/EMS.jpg)<br>
+=======
+* Das elektromagnetische Spektrum spielt in der Fernerkundung die zentrale Rolle
+* Sensor zeichnet elektromagnetische Strahlung auf, die an der Erdoberfläche und ihren Objekten reflektiert wird
+![EMS](img/EMS.jpg)
+>>>>>>> origin/Thalis-Teil
 * Sie nutzt aus, dass jedes Material auf der Erde die elektromagnetische Strahlung anders reflektiert
 * Daraus lassen sich letztlich Rückschlüsse auf Positionsinformationen von Objekten und Hinweise auf Eigenschaften von Oberflächen ziehen
 * Wenn diese Rückschlüsse objektspezifisch und signifikant sind, können sie zur Objektklassifikation herangezogen werden!
@@ -40,17 +46,6 @@ Man unterscheidet anhand des EMS drei große Bereiche:
     * Multispektral: 7-12 Kanäle. Jeder Kanal ist empfindlich gegenüber Strahlung innerhalb eines schmalen Wellenlängenbereichs. Das resultierende Bild ist ein mehrschichtiges Bild, das sowohl die Helligkeits- als auch die spektralen (Farb-) Informationen der beobachteten Objekte enthält
     * Hyperspektral: Hundert oder mehr zusammenhängende Spektralkanäle
     * (vgl. [Lingli Zhu et al.](https://www.intechopen.com/chapters/57384))
-  * Bsp. für Satellit: Sentinel-2
-    * 13 Kanäle/Bänder
-    * Überfliegung alle 5 bis 7 Tage
-    *	Auflösung 10/20/60m
-    *	(vgl. [KONSAB](https://www.youtube.com/watch?v=U9fF3KsQOMc&ab_channel=FernerkundungLernen))
-* Vier Auflösungsdimensionen:
-  * Zeitliche Auflösung (Variationen, z.B. Herbst/Frühling)
-  * Räumliche Auflösung (Variationen, z.B. m/Pixel, d.h. Größenveränderung)
-  * Radiometrische Auflösung (Anzahl der Informationen in bit, z.B. 8 bit, 16 bit etc.)
-  *	Spektrale Auflösung (Wellenlängen, z.B. VIS und IR)
-  *	(vgl. [Torsten Prinz] (https://ivvgeo.uni-muenster.de/vorlesung/FE_Script/1_2.html))
 *	Radar Fernerkundung:
     *	Meist aktiv (senden Strahlung selbst aus und empfangen Signale als Energiepulse, die je nach Oberfläche unterschiedlich stark ausfallen)
     *	Aufnahmen unabhängig von Bewölkung und Tageszeit
@@ -60,6 +55,18 @@ Man unterscheidet anhand des EMS drei große Bereiche:
     *	Bisher nur geringe räumliche Auflösung
     *	(vgl. [KONSAB](https://www.youtube.com/watch?v=U9fF3KsQOMc&ab_channel=FernerkundungLernen))
 
+## Vier Auflösungsdimensionen:
+  * Zeitliche Auflösung (Variationen, z.B. Herbst/Frühling)
+  * Räumliche Auflösung (Variationen, z.B. m/Pixel, d.h. Größenveränderung)
+  * Radiometrische Auflösung (Anzahl der Informationen in bit, z.B. 8 bit, 16 bit etc.)
+  *	Spektrale Auflösung (Wellenlängen, z.B. VIS und IR)
+  *	(vgl. [Torsten Prinz](https://ivvgeo.uni-muenster.de/vorlesung/FE_Script/1_2.html))
+  
+  * Bsp. für Satellit: Sentinel-2
+    * 13 Kanäle/Bänder
+    * Überfliegung alle 5 bis 7 Tage
+    *	Auflösung 10/20/60m
+    *	(vgl. [KONSAB](https://www.youtube.com/watch?v=U9fF3KsQOMc&ab_channel=FernerkundungLernen))
 
 ## Auswahl aktuell verbreiteter Satellitenprogramme: 
 
@@ -90,8 +97,7 @@ Man unterscheidet anhand des EMS drei große Bereiche:
 
 ## Datenformate
 
-* Grafische Fernerkundungsdaten werden in der Regel als Rasterdaten gespeichert und enthalten “Bänder”, falls mehrere Farbkanäle existieren (vgl. [Nagesh Kumar](https://nptel.ac.in/courses/105/108/105108077/
-))
+* Grafische Fernerkundungsdaten werden in der Regel als Rasterdaten gespeichert und enthalten “Bänder”, falls mehrere Farbkanäle existieren (vgl. [Nagesh Kumar](https://nptel.ac.in/courses/105/108/105108077/))
 * Mögliche Datentypen beim Download von Daten:
 
 
